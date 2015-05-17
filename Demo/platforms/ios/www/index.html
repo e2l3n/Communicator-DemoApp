@@ -28,14 +28,14 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>Hello World</title>
     </head>
-    <body>
+    <body onload="onDocLoad()">
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
@@ -43,6 +43,44 @@
                 <p class="event received">Device is Ready</p>
             </div>
         </div>
+        <script>
+            function onDocLoad() {
+                if ((/(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent))) {
+                    document.addEventListener('deviceready', intiateCommunication, false);
+                } else {
+                    intiateCommunication();
+                }
+            }
+        
+        function intiateCommunication() {
+            console.log("onDeviceReady(): Broadcast presence and start listening.");
+            var communicator = window.plugins.WAUCommunicator;
+            if (communicator) {
+                communicator.enableCaching(communicator.COMMAND_TYPE.kCOMMAND_CACHEENABLE,
+                                           function() {
+                                                console.log("Successfully enabled data caching.");
+                                           },
+                                           function(error) {
+                                                console.log(error);
+                                           });
+                communicator.broadcast(communicator.COMMAND_TYPE.kCOMMAND_BROADCASTSTART,
+                                       function() {
+                                            console.log("App is now broadcasting presence over the LAN.");
+                                       },
+                                       function(error) {
+                                            console.log(error);
+                                       });
+                communicator.listen(communicator.COMMAND_TYPE.kCOMMAND_LISTENSTART,
+                                       function() {
+                                            console.log("App is now listening for socket conections.");
+                                       },
+                                       function(error) {
+                                            console.log(error);
+                                       });
+            }
+        }
+        </script>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>

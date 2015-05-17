@@ -41,14 +41,14 @@
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		E853F102DFA046D08104B95C /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A86153F4071547A8A8CF8FE7 /* CDVDevice.m */; };
 		554F01C9F59446F8B0983C21 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A323F3F044964E90B26D866E /* CDVLogger.m */; };
-		7A661CC00A824554ACC86FA4 /* WAUInvokedUrlCommandStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7995CFFED35242068554A951 /* WAUInvokedUrlCommandStorage.m */; };
-		F8E322DEB3D44054836FD910 /* NSError+WAU.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C4761837FD44D3A8CED63D /* NSError+WAU.m */; };
-		1BDDC0987F6A412E9516A8CE /* WAUCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8903D2F51F4763AA63B4A5 /* WAUCommand.m */; };
-		5C0FC715ECCA410B84153FB7 /* WAUCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA69B77116341B49F74DF8D /* WAUCommunicator.m */; };
-		FF595904143B40B59DC24FC6 /* WAUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4926F83B21A64DFFA6C5FC2C /* WAUConstants.m */; };
-		58890EF959D340FFBC65B142 /* WAUFileOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 870E8F55F10242F7886EFCBA /* WAUFileOperator.m */; };
-		2A5F0EDBCAF34E17B946ABFC /* libPocketSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9812155E064B1B819B3EED /* libPocketSocket.a */; };
-		FB8D6A654B3E498D9CDC7E47 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CDC73A1A9645CFBF9C4A47 /* libz.dylib */; };
+		860B243CFD344EA5B7855587 /* WAUInvokedUrlCommandStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1745D6EB113B4ADD891C6EDD /* WAUInvokedUrlCommandStorage.m */; };
+		7BA8BA1DA2784C2AB91D616D /* NSError+WAU.m in Sources */ = {isa = PBXBuildFile; fileRef = C3668B2279B04CABB963AF26 /* NSError+WAU.m */; };
+		FCAA00F4257541F4A73B2E12 /* WAUCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC8E5CF3FD74F15A64B00E5 /* WAUCommand.m */; };
+		C529B0F2507C441EB452D662 /* WAUCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2466C55FD410295DA2A59 /* WAUCommunicator.m */; };
+		FF2C9F4EA3BE4A55B44D5CFA /* WAUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE9A3821BA4FE2BD01602C /* WAUConstants.m */; };
+		0C47D6948BAC432BB2E0A713 /* WAUFileOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = E48275A87DCD449D8E9C70E3 /* WAUFileOperator.m */; };
+		19F26EEF52BC4B9393C78673 /* libPocketSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C506D6BEABD4031B454B20C /* libPocketSocket.a */; };
+		47426039C0D343CCBB07C30F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89391BEBD254443782BB36FE /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,24 +118,24 @@
 		08EE233F33484B6288267066 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		A323F3F044964E90B26D866E /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		F00F24E39F72460EB8285CA0 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		7995CFFED35242068554A951 /* WAUInvokedUrlCommandStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUInvokedUrlCommandStorage.m"; path = "com.tomapopov.WAUCommunicator/WAUInvokedUrlCommandStorage.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		79C4761837FD44D3A8CED63D /* NSError+WAU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSError+WAU.m"; path = "com.tomapopov.WAUCommunicator/NSError+WAU.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		FD8903D2F51F4763AA63B4A5 /* WAUCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUCommand.m"; path = "com.tomapopov.WAUCommunicator/WAUCommand.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		BBA69B77116341B49F74DF8D /* WAUCommunicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUCommunicator.m"; path = "com.tomapopov.WAUCommunicator/WAUCommunicator.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		4926F83B21A64DFFA6C5FC2C /* WAUConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUConstants.m"; path = "com.tomapopov.WAUCommunicator/WAUConstants.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		870E8F55F10242F7886EFCBA /* WAUFileOperator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUFileOperator.m"; path = "com.tomapopov.WAUCommunicator/WAUFileOperator.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		1F9812155E064B1B819B3EED /* libPocketSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPocketSocket.a"; path = "Communicator/Plugins/com.tomapopov.WAUCommunicator/libPocketSocket.a"; sourceTree = "<group>"; fileEncoding = 4; };
-		7E80AE1FCBDC4E7B99AA57CF /* PSWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PSWebSocket.h"; path = "com.tomapopov.WAUCommunicator/PSWebSocket.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		4BDF5488507243D5AD74F338 /* PSWebSocketDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PSWebSocketDriver.h"; path = "com.tomapopov.WAUCommunicator/PSWebSocketDriver.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		1D94E4A01AE94CE98BDD7477 /* PSWebSocketServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PSWebSocketServer.h"; path = "com.tomapopov.WAUCommunicator/PSWebSocketServer.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		D09BE5002556492DAE99A9FC /* PSWebSocketTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PSWebSocketTypes.h"; path = "com.tomapopov.WAUCommunicator/PSWebSocketTypes.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		68D045FC37EE48B59DD11B06 /* WAUInvokedUrlCommandStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUInvokedUrlCommandStorage.h"; path = "com.tomapopov.WAUCommunicator/WAUInvokedUrlCommandStorage.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		C204DE823D0043BEB6CFDA52 /* NSError+WAU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSError+WAU.h"; path = "com.tomapopov.WAUCommunicator/NSError+WAU.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		C3414FE6DDF343128B4E838A /* WAUCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUCommand.h"; path = "com.tomapopov.WAUCommunicator/WAUCommand.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		9C1F2516805246D380EFB16C /* WAUCommunicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUCommunicator.h"; path = "com.tomapopov.WAUCommunicator/WAUCommunicator.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		4E07175407874AD6ABF9C7ED /* WAUConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUConstants.h"; path = "com.tomapopov.WAUCommunicator/WAUConstants.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		E61FCC1A263D4336915CD972 /* WAUFileOperator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUFileOperator.h"; path = "com.tomapopov.WAUCommunicator/WAUFileOperator.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		E1CDC73A1A9645CFBF9C4A47 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		1745D6EB113B4ADD891C6EDD /* WAUInvokedUrlCommandStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUInvokedUrlCommandStorage.m"; path = "com.tomapopov.WAUCommunicator/WAUInvokedUrlCommandStorage.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C3668B2279B04CABB963AF26 /* NSError+WAU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSError+WAU.m"; path = "com.tomapopov.WAUCommunicator/NSError+WAU.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		AEC8E5CF3FD74F15A64B00E5 /* WAUCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUCommand.m"; path = "com.tomapopov.WAUCommunicator/WAUCommand.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0BB2466C55FD410295DA2A59 /* WAUCommunicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUCommunicator.m"; path = "com.tomapopov.WAUCommunicator/WAUCommunicator.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E1CE9A3821BA4FE2BD01602C /* WAUConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUConstants.m"; path = "com.tomapopov.WAUCommunicator/WAUConstants.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E48275A87DCD449D8E9C70E3 /* WAUFileOperator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WAUFileOperator.m"; path = "com.tomapopov.WAUCommunicator/WAUFileOperator.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3C506D6BEABD4031B454B20C /* libPocketSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPocketSocket.a"; path = "Communicator/Plugins/com.tomapopov.WAUCommunicator/libPocketSocket.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		96FFD801CE5E40C39861E2CD /* PSWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PSWebSocket.h"; path = "com.tomapopov.WAUCommunicator/PSWebSocket.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4BCC568B5A6A43668F55D831 /* PSWebSocketDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PSWebSocketDriver.h"; path = "com.tomapopov.WAUCommunicator/PSWebSocketDriver.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6DBE0A7C817C49829475165D /* PSWebSocketServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PSWebSocketServer.h"; path = "com.tomapopov.WAUCommunicator/PSWebSocketServer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		360BE96DFB9546D8B256D513 /* PSWebSocketTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PSWebSocketTypes.h"; path = "com.tomapopov.WAUCommunicator/PSWebSocketTypes.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		07642968D033478E86C4B593 /* WAUInvokedUrlCommandStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUInvokedUrlCommandStorage.h"; path = "com.tomapopov.WAUCommunicator/WAUInvokedUrlCommandStorage.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7A503210E9614178A9718EC6 /* NSError+WAU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSError+WAU.h"; path = "com.tomapopov.WAUCommunicator/NSError+WAU.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		31157E30BEAE4737A35CDFD1 /* WAUCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUCommand.h"; path = "com.tomapopov.WAUCommunicator/WAUCommand.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E8F8B3AC5BBE4945B54DEBF3 /* WAUCommunicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUCommunicator.h"; path = "com.tomapopov.WAUCommunicator/WAUCommunicator.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8B3EC43F8B49418BA84110C2 /* WAUConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUConstants.h"; path = "com.tomapopov.WAUCommunicator/WAUConstants.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		32FD373B836047F3821B3110 /* WAUFileOperator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WAUFileOperator.h"; path = "com.tomapopov.WAUCommunicator/WAUFileOperator.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		89391BEBD254443782BB36FE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				2A5F0EDBCAF34E17B946ABFC /* libPocketSocket.a in Frameworks */,
-				FB8D6A654B3E498D9CDC7E47 /* libz.dylib in Frameworks */,
+				19F26EEF52BC4B9393C78673 /* libPocketSocket.a in Frameworks */,
+				47426039C0D343CCBB07C30F /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,8 +221,8 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				1F9812155E064B1B819B3EED /* libPocketSocket.a */,
-				E1CDC73A1A9645CFBF9C4A47 /* libz.dylib */,
+				3C506D6BEABD4031B454B20C /* libPocketSocket.a */,
+				89391BEBD254443782BB36FE /* libz.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -242,22 +242,22 @@
 				08EE233F33484B6288267066 /* CDVDevice.h */,
 				A323F3F044964E90B26D866E /* CDVLogger.m */,
 				F00F24E39F72460EB8285CA0 /* CDVLogger.h */,
-				7995CFFED35242068554A951 /* WAUInvokedUrlCommandStorage.m */,
-				79C4761837FD44D3A8CED63D /* NSError+WAU.m */,
-				FD8903D2F51F4763AA63B4A5 /* WAUCommand.m */,
-				BBA69B77116341B49F74DF8D /* WAUCommunicator.m */,
-				4926F83B21A64DFFA6C5FC2C /* WAUConstants.m */,
-				870E8F55F10242F7886EFCBA /* WAUFileOperator.m */,
-				7E80AE1FCBDC4E7B99AA57CF /* PSWebSocket.h */,
-				4BDF5488507243D5AD74F338 /* PSWebSocketDriver.h */,
-				1D94E4A01AE94CE98BDD7477 /* PSWebSocketServer.h */,
-				D09BE5002556492DAE99A9FC /* PSWebSocketTypes.h */,
-				68D045FC37EE48B59DD11B06 /* WAUInvokedUrlCommandStorage.h */,
-				C204DE823D0043BEB6CFDA52 /* NSError+WAU.h */,
-				C3414FE6DDF343128B4E838A /* WAUCommand.h */,
-				9C1F2516805246D380EFB16C /* WAUCommunicator.h */,
-				4E07175407874AD6ABF9C7ED /* WAUConstants.h */,
-				E61FCC1A263D4336915CD972 /* WAUFileOperator.h */,
+				1745D6EB113B4ADD891C6EDD /* WAUInvokedUrlCommandStorage.m */,
+				C3668B2279B04CABB963AF26 /* NSError+WAU.m */,
+				AEC8E5CF3FD74F15A64B00E5 /* WAUCommand.m */,
+				0BB2466C55FD410295DA2A59 /* WAUCommunicator.m */,
+				E1CE9A3821BA4FE2BD01602C /* WAUConstants.m */,
+				E48275A87DCD449D8E9C70E3 /* WAUFileOperator.m */,
+				96FFD801CE5E40C39861E2CD /* PSWebSocket.h */,
+				4BCC568B5A6A43668F55D831 /* PSWebSocketDriver.h */,
+				6DBE0A7C817C49829475165D /* PSWebSocketServer.h */,
+				360BE96DFB9546D8B256D513 /* PSWebSocketTypes.h */,
+				07642968D033478E86C4B593 /* WAUInvokedUrlCommandStorage.h */,
+				7A503210E9614178A9718EC6 /* NSError+WAU.h */,
+				31157E30BEAE4737A35CDFD1 /* WAUCommand.h */,
+				E8F8B3AC5BBE4945B54DEBF3 /* WAUCommunicator.h */,
+				8B3EC43F8B49418BA84110C2 /* WAUConstants.h */,
+				32FD373B836047F3821B3110 /* WAUFileOperator.h */,
 			);
 			name = Plugins;
 			path = "Communicator/Plugins";
@@ -444,12 +444,12 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				E853F102DFA046D08104B95C /* CDVDevice.m in Sources */,
 				554F01C9F59446F8B0983C21 /* CDVLogger.m in Sources */,
-				7A661CC00A824554ACC86FA4 /* WAUInvokedUrlCommandStorage.m in Sources */,
-				F8E322DEB3D44054836FD910 /* NSError+WAU.m in Sources */,
-				1BDDC0987F6A412E9516A8CE /* WAUCommand.m in Sources */,
-				5C0FC715ECCA410B84153FB7 /* WAUCommunicator.m in Sources */,
-				FF595904143B40B59DC24FC6 /* WAUConstants.m in Sources */,
-				58890EF959D340FFBC65B142 /* WAUFileOperator.m in Sources */,
+				860B243CFD344EA5B7855587 /* WAUInvokedUrlCommandStorage.m in Sources */,
+				7BA8BA1DA2784C2AB91D616D /* NSError+WAU.m in Sources */,
+				FCAA00F4257541F4A73B2E12 /* WAUCommand.m in Sources */,
+				C529B0F2507C441EB452D662 /* WAUCommunicator.m in Sources */,
+				FF2C9F4EA3BE4A55B44D5CFA /* WAUConstants.m in Sources */,
+				0C47D6948BAC432BB2E0A713 /* WAUFileOperator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

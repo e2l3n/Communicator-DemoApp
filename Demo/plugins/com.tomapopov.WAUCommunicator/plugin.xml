@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+            id="com.tomapopov.WAUCommunicator" version="1.0.0">
+      
+    <name>WAUCommunicator</name>
+	<description>An apache cordova plugin providing functionality for service advertisement over a local network and socket communication.</description>
+	<author>Toma Popov</author>
+	<license>MIT</license>
+	<keywords>WAU,communicator</keywords>
+    <repo>https://github.com/e2l3n/Communicator.git</repo>
+
+	<engines>
+	    <engine name="cordova" version=">=3.0" />
+	</engines>
+
+    <js-module src="www/Communicator.js" name="WAUCommunicator">
+        <clobbers target="window.plugins.WAUCommunicator" />
+    </js-module>
+     
+     <!-- ios -->
+     <platform name="ios">    
+         <config-file target="config.xml" parent="/*">
+             <feature name="WAUCommunicator">
+                 <param name="ios-package" value="WAUCommunicator" />
+             </feature>
+         </config-file>
+         <header-file src="src/ios/PSWebSocket.h" />
+         <header-file src="src/ios/PSWebSocketDriver.h" />
+         <header-file src="src/ios/PSWebSocketServer.h" />
+         <header-file src="src/ios/PSWebSocketTypes.h" />
+         <header-file src="src/ios/WAUInvokedUrlCommandStorage.h" />
+         <source-file src="src/ios/WAUInvokedUrlCommandStorage.m" />
+         <header-file src="src/ios/NSError+WAU.h" />
+         <source-file src="src/ios/NSError+WAU.m" />
+         <header-file src="src/ios/WAUCommand.h" />
+         <source-file src="src/ios/WAUCommand.m" />
+         <header-file src="src/ios/WAUCommunicator.h" />
+         <source-file src="src/ios/WAUCommunicator.m" />
+         <header-file src="src/ios/WAUConstants.h" />
+         <source-file src="src/ios/WAUConstants.m" />
+         <header-file src="src/ios/WAUFileOperator.h" />
+         <source-file src="src/ios/WAUFileOperator.m" />
+
+        <framework src="libz.dylib" />
+        <source-file src="src/ios/libPocketSocket.a" framework="true" />
+	</platform>
+</plugin>

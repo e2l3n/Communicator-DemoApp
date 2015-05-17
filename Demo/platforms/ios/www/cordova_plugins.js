@@ -20,6 +20,13 @@ module.exports = [
         "clobbers": [
             "cordova.logger"
         ]
+    },
+    {
+        "file": "plugins/com.tomapopov.WAUCommunicator/www/Communicator.js",
+        "id": "com.tomapopov.WAUCommunicator.WAUCommunicator",
+        "clobbers": [
+            "window.plugins.WAUCommunicator"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -27,7 +34,8 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.0.0",
     "org.apache.cordova.device": "0.3.0",
-    "org.apache.cordova.console": "0.2.13"
+    "org.apache.cordova.console": "0.2.13",
+    "com.tomapopov.WAUCommunicator": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

@@ -15,6 +15,20 @@
                         {
                             "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"WAUCommunicator\"><param name=\"ios-package\" value=\"WAUCommunicator\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "framework": {
+                "parents": {
+                    "libz.dylib": [
+                        {
+                            "xml": false,
+                            "count": 1
                         }
                     ]
                 }
@@ -29,6 +43,9 @@
             "PACKAGE_NAME": "com.tomapopov.communicator"
         },
         "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.tomapopov.communicator"
+        },
+        "com.tomapopov.WAUCommunicator": {
             "PACKAGE_NAME": "com.tomapopov.communicator"
         }
     },

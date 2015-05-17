@@ -22,5 +22,14 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "com.tomapopov.WAUCommunicator": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/e2l3n/Communicator.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
